@@ -1,0 +1,24 @@
+{
+  "title": "Naša filozofia",
+  "subtitle": "Zamerané na jedinečnú chuť a kvalitu",
+  "content1": "Lumi Tea je prémiový koncept, ktorý spája tradičné ázijské čaje s modernými postupmi. Naše nápoje a jedlá sú pripravované v momente objednávky z tých najkvalitnejších surovín tak, aby bol každý dúšok zážitkom.",
+  "content2": "Zakladáme si na čerstvosti a autenticite, preto našu ponuku pravidelne obmieňame a dopĺňame o sezónne špeciality, ktoré inde na Slovensku nenájdete.",
+  "image": "/assets/access-verified/banner-bubbletea-hero.png",
+  "stats": [
+    {
+      "value": "100%",
+      "label": "Autentická chuť",
+      "desc": "Pravé receptúry inšpirované tradičnou ázijskou kultúrou a moderným street foodom."
+    },
+    {
+      "value": "20+",
+      "label": "Prémiových surovín",
+      "desc": "Kvalitné voľnosypané čaje, čerstvé ovocie a lahodné prísady pre nezabudnuteľný drink."
+    },
+    {
+      "value": "1",
+      "label": "Jedinečný zážitok",
+      "desc": "Sme tu od toho, aby sme vám spríjemnili deň skvelým dizajnom a dokonalou chuťou."
+    }
+  ]
+}

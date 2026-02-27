@@ -1,0 +1,82 @@
+{
+    "hero": {
+        "badge": "Nová éra Bubble Tea",
+        "description": "Zabudnite na nudné drinky. Prinášame explóziu chuti, prémiových surovín a dizajnu, ktorý posúva hranice. Príďte si pre svoj nový obľúbený spot.",
+        "buttons": {
+            "primary": {
+                "text": "Objednať menu",
+                "link": "/menu"
+            },
+            "secondary": {
+                "text": "Náš príbeh",
+                "link": "/about"
+            }
+        },
+        "images": {
+            "center": "/assets/decor/brown-sugar-daddy-no-bg.png",
+            "left": "/assets/decor/matcha-latte-no-bg.png",
+            "right": "/assets/decor/waffle-four-no-bg.png"
+        }
+    },
+    "menuBoards": {
+        "badge": "Objavte Svoj Štýl",
+        "title": "Profily Chutí.",
+        "description": "Od klasických mliečnych čajov až po osviežujúce letné hity. Vyberte si kategóriu podľa vašej nálady.",
+        "categories": [
+            {
+                "id": "mliecne",
+                "title": "Mliečne Čaje",
+                "subtitle": "Krémové & Klasické",
+                "image": "/assets/decor/brown-sugar-daddy-no-bg.png",
+                "bgClass": "bg-[#FAFAF9]"
+            },
+            {
+                "id": "ovocne",
+                "title": "Ovocné Čaje",
+                "subtitle": "Svieže & Explozívne",
+                "image": "/assets/decor/dragon-fruit-tea-no-bg.png",
+                "bgClass": "bg-[#FFEDD5]"
+            },
+            {
+                "id": "matcha",
+                "title": "Premium Matcha",
+                "subtitle": "Zemité & Jemné",
+                "image": "/assets/decor/matcha-latte-no-bg.png",
+                "bgClass": "bg-[#E6F3EB]"
+            },
+            {
+                "id": "waffles",
+                "title": "Bubble Waffles",
+                "subtitle": "Sladké & Chrumkavé",
+                "image": "/assets/decor/waffle-four-no-bg.png",
+                "bgClass": "bg-[#F4F4F5]"
+            }
+        ]
+    },
+    "storyIntro": {
+        "badge": "Náš Príbeh",
+        "titleHtml": "Chuť, ktorá <br /><span className=\"text-primary\">vás dostane.</span>",
+        "description": "Sme viac než len čajovňa. Sme tvoj nový denný rituál. V Beatea veríme, že každý dúšok by mal byť zážitkom, rovnako ako miesto, kde ho piješ. Žiadne umelé prášky, len čistá esencia ovocia a čaju.",
+        "points": [
+            "Prémiové ingrediencie bez kompromisov",
+            "Rýchla a priateľská obsluha",
+            "Designový priestor pre tvoj vibe"
+        ],
+        "images": {
+            "main": "/assets/decor/dragon-fruit-tea-no-bg.png",
+            "floating": "/assets/decor/matcha-latte-no-bg.png"
+        },
+        "button": {
+            "text": "Viac o nás",
+            "link": "/about"
+        }
+    },
+    "highlights": {
+        "badge": "Signature Series",
+        "title": "Absolútne Bestsellery.",
+        "button": {
+            "text": "Celé menu",
+            "link": "/menu"
+        }
+    }
+}

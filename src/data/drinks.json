@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Brown Sugar Daddy",
+    "category": "Mliečny čaj",
+    "price": 4.9,
+    "image": "/assets/access-verified/drink-brown-sugar-daddy.png",
+    "description": "Čerstvé plnotučné mlieko, bohatý sirup z hnedého cukru a naše signature tapiokové perly.",
+    "story": "Ikonický mliečny čaj, ktorý nikdy nesklame. Dokonalá rovnováha sladkosti a krémovej textúry."
+  },
+  {
+    "id": 5,
+    "name": "Bubble Waffle Výber",
+    "category": "Waffle",
+    "price": 5.9,
+    "image": "/assets/access-verified/food-bubble-waffle-four.png",
+    "description": "Naša ponuka štyroch rôznych nadýchaných bubble waffle. Ideálne pre tých, čo chcú skúsiť všetky chute.",
+    "story": "Na fotografii vidíte náš degustačný set, ktorý obsahuje waffle s lesným ovocím, jahodami, orechovým toppingom aj farebným posypom."
+  }
+]

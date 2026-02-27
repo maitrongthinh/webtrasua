@@ -1,0 +1,20 @@
+{
+  "node": {
+    "00841e8abd65e80a6805d24b8a0c30b409dc5de8cf": {
+      "workers": {
+        "app/about/page": {
+          "moduleId": 21490,
+          "async": false,
+          "exportedName": "getAboutData",
+          "filename": "src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/about/page": "action-browser"
+      },
+      "exportedName": "getAboutData",
+      "filename": "src/app/actions.ts"
+    }
+  },
+  "edge": {}
+}

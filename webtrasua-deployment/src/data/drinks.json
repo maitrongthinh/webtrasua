@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Brown Sugar Daddy",
+    "category": "Mliečny čaj",
+    "price": 4.9,
+    "image": "/assets/access-verified/drink-brown-sugar-daddy.png",
+    "description": "Čerstvé plnotučné mlieko, bohatý sirup z hnedého cukru a naše signature tapiokové perly.",
+    "story": "Ikonický mliečny čaj, ktorý nikdy nesklame. Dokonalá rovnováha sladkosti a krémovej textúry."
+  },
+  {
+    "id": 2,
+    "name": "Dragon Fruit Tea",
+    "category": "Ovocný čaj",
+    "price": 4.9,
+    "image": "/assets/access-verified/drink-dragon-fruit-tea.png",
+    "description": "Prémiový zelený čaj s červeným dračím ovocím, sviežimi ovocnými kockami a ľadom.",
+    "story": "Exkluzívna letná špecialita plná antioxidantov. Výrazná farba a ešte výraznejšia svieža chuť."
+  },
+  {
+    "id": 3,
+    "name": "Blueberry Yogurt",
+    "category": "Jogurtový čaj",
+    "price": 4.9,
+    "image": "/assets/access-verified/drink-blueberry-yogurt.png",
+    "description": "Osviežujúci čučoriedkový jogurtový nápoj s lahodnými perlami.",
+    "story": "Vyladená kombinácia jemnej kyslosti jogurtu a sladkosti čerstvých čučoriedok."
+  },
+  {
+    "id": 4,
+    "name": "Matcha Cold Whisk Latte",
+    "category": "Matcha",
+    "price": 4.9,
+    "image": "/assets/access-verified/drink-matcha-cold-whisk-latte.png",
+    "description": "Jemne šľahaná prémiová japonská matcha s mliekom a hustou mliečnou penou.",
+    "story": "Zelený elixír pre milovníkov jemnej horkosti a pravej chuti kvalitného čaju Matcha."
+  },
+  {
+    "id": 5,
+    "name": "Bubble Waffle Výber",
+    "category": "Waffle",
+    "price": 5.9,
+    "image": "/assets/access-verified/food-bubble-waffle-four.png",
+    "description": "Naša ponuka štyroch rôznych nadýchaných bubble waffle. Ideálne pre tých, čo chcú skúsiť všetky chute.",
+    "story": "Na fotografii vidíte náš degustačný set, ktorý obsahuje waffle s lesným ovocím, jahodami, orechovým toppingom aj farebným posypom."
+  }
+]

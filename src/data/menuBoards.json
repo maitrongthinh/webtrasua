@@ -1,0 +1,56 @@
+[
+  {
+    "id": "board-main-1",
+    "title": "Oficiálne menu - verzia 1",
+    "image": "/assets/access-verified/menu-full-pink-v1.png",
+    "type": "menu"
+  },
+  {
+    "id": "board-main-2",
+    "title": "Oficiálne menu - verzia 2",
+    "image": "/assets/access-verified/menu-full-purple-v2.png",
+    "type": "menu"
+  },
+  {
+    "id": "board-main-3",
+    "title": "Oficiálne menu - zelená verzia",
+    "image": "/assets/access-verified/menu-full-green-v1.png",
+    "type": "menu"
+  },
+  {
+    "id": "panel-milk-tea",
+    "title": "1-10: Mliečne čaje",
+    "image": "/assets/access-verified/menu-milktea-1-10-only.png",
+    "type": "panel"
+  },
+  {
+    "id": "panel-fruit-tea",
+    "title": "11-20: Ovocné čaje",
+    "image": "/assets/access-verified/menu-fruit-tea-11-20-purple.png",
+    "type": "panel"
+  },
+  {
+    "id": "panel-mojito",
+    "title": "21-30: Mojito a jogurtové čaje",
+    "image": "/assets/access-verified/menu-mojito-21-30-teal.png",
+    "type": "panel"
+  },
+  {
+    "id": "panel-matcha",
+    "title": "31-39: Matcha latte",
+    "image": "/assets/access-verified/menu-matcha-31-39-green.png",
+    "type": "panel"
+  },
+  {
+    "id": "promo-waffle",
+    "title": "Plagát: Waffle + Matcha",
+    "image": "/assets/access-verified/poster-waffle-matcha.png",
+    "type": "promo"
+  },
+  {
+    "id": "banner-bubbletea",
+    "title": "Promo banner: Bubble Tea",
+    "image": "/assets/access-verified/banner-bubbletea-hero.png",
+    "type": "promo"
+  }
+]

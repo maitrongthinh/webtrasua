@@ -1,0 +1,18 @@
+{
+  "brandName": "Lumi Tea",
+  "slogan": "Bubble tea, snacky a jedlo",
+  "contact": {
+    "phone": "+421 901 234 567",
+    "email": "hello@lumitea.sk",
+    "address": "Obchodna 15, Bratislava"
+  },
+  "socials": {
+    "facebook": "https://facebook.com/lumitea.sk",
+    "instagram": "https://instagram.com/lumitea.sk",
+    "tiktok": "https://tiktok.com/@lumitea.sk"
+  },
+  "hours": [
+    "Pondelok - Piatok: 10:00 - 21:00",
+    "Sobota - Nedeľa: 11:00 - 22:00"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "node": {
+    "0024eccb5e429b6eeb00abdf7a1b092a0f422ba8cf": {
+      "workers": {
+        "app/menu/page": {
+          "moduleId": 7115,
+          "async": false,
+          "exportedName": "getCategories",
+          "filename": "src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/menu/page": "action-browser"
+      },
+      "exportedName": "getCategories",
+      "filename": "src/app/actions.ts"
+    },
+    "00ea36612f064356975b750148aeffad7251ee7289": {
+      "workers": {
+        "app/menu/page": {
+          "moduleId": 7115,
+          "async": false,
+          "exportedName": "getDrinks",
+          "filename": "src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/menu/page": "action-browser"
+      },
+      "exportedName": "getDrinks",
+      "filename": "src/app/actions.ts"
+    }
+  },
+  "edge": {}
+}

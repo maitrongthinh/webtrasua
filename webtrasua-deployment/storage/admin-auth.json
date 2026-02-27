@@ -1,0 +1,8 @@
+{
+  "passwordHash": "3a659f3895892c49bfc21c5826114b79bc40ae1961b518da3b32d3032b7691c0ba88fd0cd6adda192144cdd11290dc36be060ab427afaf13b0ea6aed1527895c",
+  "passwordSalt": "7fc4799ef48b5b05a15f602bc18a6164",
+  "failedAttempts": 0,
+  "lockUntil": 0,
+  "updatedAt": "2026-02-20T14:06:09.441Z",
+  "lastLoginAt": "2026-02-20T14:06:09.441Z"
+}
