@@ -827,11 +827,18 @@ export default function AdminDashboard() {
                   </div>
                 </div>
 
-                <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-                  {libraryImages.map((img) => (
-                    <div key={img.name} className="group relative flex aspect-square flex-col overflow-hidden rounded-2xl border border-foreground/10 bg-white shadow-sm transition-shadow hover:shadow-md">
-                      <div className="relative flex-1 bg-gray-100">
-                        <Image src={img.url} alt={img.name} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover" />
+                <h4 className="mb-4 text-base font-black text-foreground uppercase tracking-wider text-primary">Lokálne (predvolené) obrázky</h4>
+                <div className="mb-10 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+                  {[
+                    { name: "Brown Sugar", url: "/assets/access-verified/drink-brown-sugar-daddy.png" },
+                    { name: "Blueberry Yogurt", url: "/assets/access-verified/drink-blueberry-yogurt.png" },
+                    { name: "Dragon Fruit Tea", url: "/assets/access-verified/drink-dragon-fruit-tea.png" },
+                    { name: "Matcha Latte", url: "/assets/access-verified/drink-matcha-cold-whisk-latte.png" },
+                    { name: "Bubble Waffle", url: "/assets/access-verified/food-bubble-waffle-four.png" },
+                  ].map((img) => (
+                    <div key={img.url} className="group relative flex aspect-square flex-col overflow-hidden rounded-2xl border border-foreground/10 bg-white shadow-sm transition-shadow hover:shadow-md">
+                      <div className="relative flex-1 bg-gray-50 p-2">
+                        <Image src={img.url} alt={img.name} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-contain drop-shadow-md" />
                       </div>
                       <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 bg-black/60 opacity-0 backdrop-blur-[2px] transition-opacity group-hover:opacity-100">
                         <button
@@ -841,13 +848,37 @@ export default function AdminDashboard() {
                             }
                             setShowImageLibrary(false);
                           }}
-                          className="rounded-xl bg-white px-4 py-2 text-sm font-bold text-black shadow-sm hover:bg-gray-100"
+                          className="rounded-xl bg-white px-4 py-2 text-sm font-bold text-black shadow-sm hover:bg-gray-100 hover:scale-105 transition-transform"
+                        >
+                          Vybrať toto
+                        </button>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                <h4 className="mb-4 text-base font-black text-foreground uppercase tracking-wider text-primary">Nahraté obrázky (Supabase)</h4>
+                <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+                  {libraryImages.map((img) => (
+                    <div key={img.name} className="group relative flex aspect-square flex-col overflow-hidden rounded-2xl border border-foreground/10 bg-white shadow-sm transition-shadow hover:shadow-md">
+                      <div className="relative flex-1 bg-gray-50 p-2">
+                        <Image src={img.url} alt={img.name} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-contain drop-shadow-md" />
+                      </div>
+                      <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 bg-black/60 opacity-0 backdrop-blur-[2px] transition-opacity group-hover:opacity-100">
+                        <button
+                          onClick={() => {
+                            if (editItem) {
+                              setEditItem({ ...editItem, image: img.url });
+                            }
+                            setShowImageLibrary(false);
+                          }}
+                          className="rounded-xl bg-white px-4 py-2 text-sm font-bold text-black shadow-sm hover:bg-gray-100 hover:scale-105 transition-transform"
                         >
                           Vybrať toto
                         </button>
                         <button
                           onClick={() => handleDeleteLibraryImage(img.name)}
-                          className="rounded-xl border border-red-500 bg-red-500/20 px-4 py-2 text-sm font-bold text-white hover:bg-red-500/40"
+                          className="rounded-xl border border-red-500 bg-red-500/20 px-4 py-2 text-sm font-bold text-white hover:bg-red-500/40 mt-1"
                         >
                           Zmazať zo servera
                         </button>
@@ -855,7 +886,7 @@ export default function AdminDashboard() {
                     </div>
                   ))}
                   {libraryImages.length === 0 && !isUploading && (
-                    <p className="col-span-full py-10 text-center text-sm font-bold text-foreground/50">Galéria je prázdna.</p>
+                    <p className="col-span-full py-10 text-center text-sm font-bold text-foreground/50 border border-dashed border-foreground/20 rounded-2xl rounded-2xl">Zatiaľ neboli nahraté žiadne obrázky z PC.</p>
                   )}
                 </div>
               </div>
